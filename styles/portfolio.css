@@ -50,13 +50,28 @@ p {
   padding: 160px 20px;
 }
 
+.content-container {
+  padding: 160px 20px;
+}
+
 .about-section h1 {
   font-size: 64px;
   line-height: 1.5;
 }
 
+.content-container h1 {
+  font-size: 64px;
+  line-height: 1.5;
+}
 .about-section h2 {
   font-size: 18px;
+}
+
+.content-container h2 {
+  font-size: 18px;
+}
+.content-container p {
+  font-size: 16px;
 }
 
 .about-section p {
@@ -65,6 +80,21 @@ p {
 
 .about.section.content {
   margin: 30px;
+}
+
+.content {
+  margin: 30px;
+}
+
+.content h3 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
+  line-height: 1.5;
+  margin: 20px 0 0;
+}
+
+.content p {
+  font-size: 14px;
 }
 .btn-branding {
   background-color: var(--branding-color);
@@ -111,11 +141,23 @@ p {
     padding: 0;
   }
 
+  .content-container {
+    text-align: center;
+    padding: 0;
+  }
+
   .about-section a {
     margin: 0 0 20px 0;
   }
 
+  .content-container a {
+    margin: 0 0 20px 0;
+  }
   .about-section image {
+    text-align: center;
+  }
+
+  .content-container image {
     text-align: center;
   }
 }
