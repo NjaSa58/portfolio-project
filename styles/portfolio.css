@@ -114,4 +114,8 @@ p {
   .about-section a {
     margin: 0 0 20px 0;
   }
+
+  .about-section image {
+    text-align: center;
+  }
 }
